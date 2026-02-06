@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab 3 - Coffee Order Form</title>
+  </head>
+  <body>
+    <h1>Coffee Order Form</h1>
+
+    <p>
+        Paragraph
+    </p>
+
+    <!--  Customer Name -->
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="customer-name" placeholder="Your Name" />
+    </p>
+    <!--  Customer Email -->
+    <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="email" name="customer-email" placeholder="Your Email" />
+        <br>
+    </p>
+
+    <!--  Coffee Dropdown -->
+    <label for="coffee-type">Coffee Type:</label>
+        <select id="coffee-type" name="coffee-type">
+            <option value="latte">Latte</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="americano">Americano</option>
+            <option value="espresso">Espresso</option>
+        </select><br><br>
+    </form>
+
+    <!--  Size Radio Buttons -->
+    <fieldset>
+    <legend>Pick a Size:</legend>
+
+        <input type="radio" id="size-small" name="size" value="small" checked />
+        <label for="size-small">Small</label>
+        <br>
+        <input type="radio" id="size-medium" name="size" value="medium" />
+        <label for="size-medium">Medium</label>
+        <br>
+        <input type="radio" id="size-large" name="size" value="large" />
+        <label for="size-large">Large</label>
+        
+    </fieldset>
+
+    <!--  Customization Checkboxes -->
+    <fieldset>
+    <legend>Extras:</legend>
+
+        <input type="checkbox" id="extra-whipped-cream" name="extras" value="whipped-cream" />
+        <label for="extra-whipped-cream">Whipped Cream</label>
+        <br>
+        <input type="checkbox" id="extra-extra-shot" name="extras" value="extra-shot" />
+        <label for="extra-extra-shot">Extra Shot</label>
+        <br>
+        <input type="checkbox" id="extra-almond-milk" name="extras" value="almond-milk" />
+        <label for="extra-almond-milk">Almond Milk</label>
+
+    </fieldset><br>
+
+    <!--  Special Instructions Text Box -->
+    <label for="special-instructions">Special Instructions:</label><br>
+    <textarea id="special-instructions" name="special-instructions" rows="5" cols="50" placeholder="Any special requests?"></textarea>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Place Order</button>
+    
+  </body>
+</html>
