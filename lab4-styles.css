@@ -1,0 +1,40 @@
+body {
+    background-color: #646e74;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+  color: #a06fe8;
+  text-align: center;
+}
+
+p {
+    color: #0b0069;
+    padding: 10px;
+}
+
+
+::marker{
+    color: #ff0000;
+}
+
+ul {
+    color: #f6ff00;
+}
+
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.styled-box {
+  border: 5px solid black;
+  padding: 15px;
+  background-color: lightgray;
+  text-align: center;
+}
